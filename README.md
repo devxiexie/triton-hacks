@@ -38,3 +38,5 @@ The or statement can be expressed as or or |
 
 
 converting between types, such as int, float, string, and boolean are availible
+
+(not full documentation)
