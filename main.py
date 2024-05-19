@@ -7,7 +7,7 @@ from sys import argv, exit
 OUTPUT_TO_FILE = True
 
 if len(argv) != 2:
-    print("Usage: python arson.py <file>")
+    print("Usage: python main.py <file>")
     exit(1)
 
 with open(argv[1]) as file:
