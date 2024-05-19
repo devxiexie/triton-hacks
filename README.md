@@ -2,6 +2,8 @@
 triton hacks 24 project
 big inspriation and learned from this site : https://easel.hackclub.com/orpheus-finds-easel
 
+to run, use python3 main.py <your file>
+
 # Concrete Grammar:
 
 Grammar is very similar to python, except for a few things:
