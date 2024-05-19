@@ -9,8 +9,8 @@ to run, use python3 main.py <your file>
 Grammar is very similar to python, except for a few things:
 
 must declare variable with life: life <variableName> = <value>
-
 <value> can be number, string, function call, input, binary experssions
+to input, use load(<string>)
 
 statemets:
 if statement: life(<expression>) { block <elif or else stmt>}
