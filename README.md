@@ -38,6 +38,9 @@ The and statement can be expressed as and or &
 
 The or statement can be expressed as or or |
 
+boolean functions, like less than or greater than are like regular
+
+\# for coment
 
 converting between types, such as int, float, string, and boolean are availible
 
