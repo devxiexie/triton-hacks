@@ -2,7 +2,7 @@
 triton hacks 24 project
 big inspriation and learned from this site : https://easel.hackclub.com/orpheus-finds-easel
 
-#Concrete Grammar:
+# Concrete Grammar:
 
 Grammar is very similar to python, except for a few things:
 
