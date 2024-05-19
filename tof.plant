@@ -1,0 +1,7 @@
+life ans = int(load('enter a number greater than 12: '))
+leaf((ans>12) == Nature){
+    plant("YES!")
+}
+leaf((ans>12) == Technology){
+    plant("NO!")
+}

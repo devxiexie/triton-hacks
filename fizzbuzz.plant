@@ -1,0 +1,24 @@
+life n=int(load('How many times to run fizz buzz? '))
+life fizzbuzz=0
+life fizz=0
+life buzz=0
+grow i range(1,n+1){
+    leaf(((i%3) == 0) and ((i%5) == 0)){
+        plant("FizzBuzz")
+        life fizzbuzz = (fizzbuzz+1)
+    }
+    stem((i%3) == 0){
+        plant("Fizz")
+        life fizz = fizz+1
+    }
+    stem((i%5) == 0){
+        plant('Buzz')
+        life buzz=buzz+1
+    }
+    root{
+        plant(i)
+    }
+}
+plant('You said fizzbuzz ',int(fizzbuzz),' times')
+plant('You said fizz ',int(fizz),' times')
+plant('You said buzz ',int(buzz),' times')
