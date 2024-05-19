@@ -29,6 +29,9 @@ input: load(<expression>)
 
 function def: birth <functionName> (<parameters>){block}
 
+function return: giveback(<expression>)
+
+
 
 The boolean True is expressed as Nature
 
