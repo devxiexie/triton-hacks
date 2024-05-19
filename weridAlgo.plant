@@ -1,0 +1,16 @@
+life n=int(load('input your number ' ))
+life ongoing = Nature
+cycle(ongoing){
+    plant(n)
+    leaf(n>1){
+        leaf((n%2)==0){
+            life n= int(n/2)
+        }
+        root{
+            life n = int(1+n+n+n)
+        }
+    }
+    root{
+        life ongoing = Technology
+    }
+}
